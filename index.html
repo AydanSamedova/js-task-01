@@ -16,12 +16,13 @@
 
         <div class="form">
             <div class="form-input">
-                <label for="fname">First name:</label><br>
-                <input type="text" id="name" name="fname" class="input" value=""><br>
+                <label for="name">First name:</label><br>
+                <input type="text" id="name" name="name" class="input" value=""><br>
             </div>
 
             <div class="form-input">
-                <label for="fname">Last name:</label><br>
+                <label for="Lname">Last name:</label><br>
+                <!-- for id kimi xususi olmalidi-->
                 <input type="text" id="surname" name="surname" class="input" value=""><br>
             </div>
         </div>
@@ -35,7 +36,7 @@
             </div>
 
             <div class="form-input" style="margin:auto 45px">
-                <input type="radio" id="male" name="gender" value="male">
+                <input type="radio" id="male" name="gender" value="male" checked>
                 <label for="male">Male</label>
                 <input type="radio" id="female" name="gender" value="female">
                 <label for="female">Female</label>
@@ -46,22 +47,22 @@
         <div class="form">
 
             <div class="form-input">
-                <label for="fname">Email:</label><br>
+                <label for="email">Email:</label><br>
                 <input type="text" class="input" id="email" name="email" value=""><br>
             </div>
 
             <div class="form-input">
-                <label for="fname">Phone Number:</label><br>
-                <input type="text" class="input" id="nomre" name="nomre" value=""><br>
+                <label for="number">Phone Number:</label><br>
+                <input type="text" class="input" id="phone" name="phone" value=""><br>
             </div>
         </div>
 
 
         <div class="form">
             <div class="form-input">
-                <label for="fname">Subject:</label><br>
-                <select name="Choose option" class="input" style="width: 500px;" id="Choose option">
-                    <option value="volvo">Choose option</option>
+                <label for="subj">Subject:</label><br>
+                <select name="Choose_option" class="input" style="width: 500px;" id="Choose_option">
+                    <option value="-1" selected hidden>Choose option</option>
                     <option value="saab">Saab</option>
                     <option value="mercedes">Mercedes</option>
                     <option value="audi">Audi</option>
@@ -70,7 +71,7 @@
 
         </div>
 
-        <button class="button" type="submit">Submit</button>
+        <button id='submit' class="button" type="submit">Submit</button>
 
     </form>
 
